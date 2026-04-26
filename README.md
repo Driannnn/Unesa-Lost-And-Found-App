@@ -1,7 +1,5 @@
 
-  # UNESA Lost & Found App (Copy)
-
-  This is a code bundle for UNESA Lost & Found App (Copy). The original project is available at https://www.figma.com/design/A4mpbL1yuhm3QycXrSP074/UNESA-Lost---Found-App--Copy-.
+  # UNESA Lost & Found App
 
   ## Running the code
 
