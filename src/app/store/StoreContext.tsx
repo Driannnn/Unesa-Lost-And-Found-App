@@ -573,7 +573,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
         // Find best matching item of opposite status
         const oppositeStatus: ItemStatus = itemData.status === "lost" ? "found" : "lost";
         const candidates = s.items.filter(
-          (i) => i.status === oppositeStatus && !i.matchedItemId
+          (i) => i.status === oppositeStatus
         );
 
         let bestMatch: { id: string; score: number } | null = null;
