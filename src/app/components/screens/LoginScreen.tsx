@@ -129,14 +129,14 @@ export function LoginScreen() {
               value={nim}
               onChange={(e) => setNim(e.target.value)}
               placeholder="NIM (contoh: 21051204011)"
-              className="h-10 bg-[#F4F6FB] border-0 text-sm"
+              className="h-10 bg-gray-100 border border-gray-200 text-sm text-black"
             />
             <Input
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               placeholder="Password"
-              className="h-10 bg-[#F4F6FB] border-0 text-sm"
+              className="h-10 bg-gray-100 border border-gray-200 text-sm text-black"
               onKeyDown={(e) => e.key === "Enter" && handleManualLogin()}
             />
             {error && (

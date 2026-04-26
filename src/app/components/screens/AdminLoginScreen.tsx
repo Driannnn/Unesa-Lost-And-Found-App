@@ -132,7 +132,7 @@ export function AdminLoginScreen() {
                 onChange={(e) => setUsername(e.target.value)}
                 onKeyDown={(e) => e.key === "Enter" && handleLogin()}
                 placeholder="Username"
-                className="pl-10 h-12 bg-[#F4F6FB] border-0"
+                className="pl-10 h-12 bg-gray-100 border border-gray-200 text-black"
               />
             </div>
           </div>
@@ -150,7 +150,7 @@ export function AdminLoginScreen() {
                 onChange={(e) => setPassword(e.target.value)}
                 onKeyDown={(e) => e.key === "Enter" && handleLogin()}
                 placeholder="Password"
-                className="pl-10 pr-12 h-12 bg-[#F4F6FB] border-0"
+                className="pl-10 pr-12 h-12 bg-gray-100 border border-gray-200 text-black"
               />
               <button
                 type="button"
